@@ -8,7 +8,7 @@ Create page with auto generated frontmatter.
 ### Usage
 
 Make sure you run the command inside the root directory of your site projet.
-It will create a file in the src/pages path.
+It will create a file in the src/content path.
 
 ```bash
 # $ astroadd [path]

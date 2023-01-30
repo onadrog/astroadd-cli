@@ -8,12 +8,12 @@ func TestSanitizer(t *testing.T) {
 		arg      string
 		expected string
 	}{
-		{"pages/posts.md", "Posts"},
-		{"pages/posts-1.md", "Posts 1"},
-		{"pages/posts_2.md", "Posts 2"},
-		{"pages/posts@3.md", "Posts 3"},
-		{"pages/posts_blog@4.md", "Posts blog 4"},
-		{"pages/posts_blog@/4.md", "4"},
+		{"content/posts.md", "Posts"},
+		{"content/posts-1.md", "Posts 1"},
+		{"content/posts_2.md", "Posts 2"},
+		{"content/posts@3.md", "Posts 3"},
+		{"content/posts_blog@4.md", "Posts blog 4"},
+		{"content/posts_blog@/4.md", "4"},
 	}
 
     for _, tc := range cases {

@@ -11,7 +11,7 @@ import (
 
 // Get the os platform separator
 var sep = os.PathSeparator
-var basePath = fmt.Sprintf("src%cpages%c", sep, sep)
+var basePath = fmt.Sprintf("src%ccontent%c", sep, sep)
 
 // Return the title without dashes and the directory path for the given path.
 // Or an error

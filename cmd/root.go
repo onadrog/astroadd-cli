@@ -32,7 +32,7 @@ var rootCmd = &cobra.Command{
 	Use:   "astroadd [path]",
 	Short: "Create a new file",
 	Long: `Create a new file.
-                Goes to src/pages
+                Goes to src/content
                 Based on the given path.                                        
                 Automatically add the frontmatter (title, date, draft).         
                 Ensure you run this within the root directory of your site.`,
